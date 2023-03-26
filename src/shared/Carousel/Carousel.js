@@ -15,6 +15,7 @@ const Carousel = () => {
 
   const carouselClickHandler = (idx) => {
     setCurrentIdx(idx);
+    setIsPaused(false);
     if (idx === 0) {
       setProgress(0);
     } else if (idx === 1) {
