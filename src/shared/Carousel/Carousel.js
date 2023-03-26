@@ -50,7 +50,7 @@ const Carousel = () => {
       const pauseInterval = setTimeout(() => {
         setIsPaused(false);
         setProgress(0);
-      }, 3850);
+      }, 3900);
       return () => clearInterval(pauseInterval);
     }
   }, [progress, isPaused]);
