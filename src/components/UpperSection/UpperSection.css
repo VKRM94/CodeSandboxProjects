@@ -1,0 +1,47 @@
+.upperLeftHalf {
+  display: flex;
+  flex-direction: column;
+  margin-left: -5%;
+  width: 35%;
+}
+
+.upperHeading {
+  color: #929a9f;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  height: 20px;
+  left: -1px;
+  line-height: 20px;
+  top: 103px;
+}
+
+.upperTitle {
+  align-items: center;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 14px;
+  height: 90px;
+  text-align: left;
+}
+
+.upperContent {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 112px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+.buttonContainer {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 25px;
+}
+
+.upperRightHalf {
+  display: flex;
+  width: 45%;
+}

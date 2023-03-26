@@ -1,0 +1,14 @@
+.containerStyles {
+  height: 140px;
+  margin-left: 10px;
+  margin-right: -100px;
+  margin-top: 80px;
+  width: 5px;
+}
+
+.fillerStyles {
+  background-color: #ff9900;
+  border-radius: 50px;
+  transition: height 1s ease-in-out;
+  width: 100%;
+}

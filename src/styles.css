@@ -1,0 +1,21 @@
+.App {
+  font-family: TT Norms Pro;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  /* margin-right: 10%; */
+}
+
+.upperSection {
+  display: flex;
+  margin-top: 112px;
+  justify-content: space-around;
+}
+
+.lowerSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 112px;
+  margin-bottom: 152px;
+}
